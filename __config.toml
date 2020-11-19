@@ -1,0 +1,4 @@
+baseURL = "https://zinoun.ma"
+languageCode = "en-us"
+title = "Zinoun.ma"
+theme = "paper"

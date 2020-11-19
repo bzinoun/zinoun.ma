@@ -1,0 +1,98 @@
+baseURL: "https://boonepeter.github.io/"
+title: Zinoun's Blog
+paginate: 4
+theme: hugo-PaperMod
+enableInlineShortcodes: true
+enableRobotsTXT: true
+
+googleAnalytics: 
+
+minify:
+  disableXML: true
+  minifyOutput: true
+
+languages:
+  en:
+    languageName: "English"
+    weight: 1
+    menu:
+      main:
+        - name: Archives
+          url: /archive/
+          weight: 5
+        - name: Tags
+          url: /tags/
+          weight: 10
+
+params:
+  env: production
+  description: "A tech blog with moroccan perspective"
+  author: Zinoun Badr Eddine
+  ShowReadingTime: true
+  defaultTheme: auto
+  ShowShareButtons: true
+  displayFullLangName: true
+  # images: ""
+  # assets:
+  #   favicon: '<path / external url>'
+
+  #profileMode:
+    #enabled: false
+    #title: PaperMod
+    #imageUrl: "#"
+    #imageTitle: my image
+    # imageWidth: 120
+    # imageHeight: 120
+    #buttons:
+    #  - name: Archives
+    #    url: archives
+    #  - name: Tags
+    #    url: tags
+
+  homeInfoParams:
+    Title: "Hey 👋 "
+    Content: >-
+
+     I'm Badr , a software engineer based at Casablanca ( Morocco 🇲🇦 ). 
+        
+        I mostly write about tech and most subjects are around Java |  Cloud & Devops |  Software Architecture |  Software Craftsmanship ...and so on 
+        
+        📢 Drop me a line , it will be a pleasure to exchange!
+
+  socialIcons:
+    - name: github
+      url: "https://github.com/bzinoun"
+    - name: linkedin
+      url: "https://www.linkedin.com/in/zinounbadr/"
+    - name: twitter
+      url: "https://twitter.com/xoniques"
+  
+
+taxonomies:
+  category: categories
+  tag: tags
+  series: series
+
+privacy:
+  vimeo:
+    disabled: true
+    simple: true
+
+  twitter:
+    disabled: false
+    enableDNT: true
+    simple: true
+
+  instagram:
+    disabled: true
+    simple: true
+
+  youtube:
+    disabled: true
+    privacyEnhanced: true
+
+services:
+  instagram:
+    disableInlineCSS: true
+  twitter:
+    disableInlineCSS: true
