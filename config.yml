@@ -1,4 +1,4 @@
-baseURL: "https://boonepeter.github.io/"
+baseURL: "/"
 title: Zinoun's Blog
 paginate: 4
 theme: hugo-PaperMod
